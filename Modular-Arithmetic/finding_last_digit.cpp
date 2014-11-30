@@ -26,6 +26,6 @@ int main() {
     scanf("%d %d", &a, &b);
 
     printf("Last digit: %d\n", exp_mod(a, b, MOD));
-    printf("%d^%d = %.f\n", a, b, pow(2.0, 100.0) );
+    printf("%d^%d = %.f\n", a, b, pow(a, b) );
     return 0;
 }
