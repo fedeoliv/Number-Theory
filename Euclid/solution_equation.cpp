@@ -14,7 +14,6 @@ int gcd(int a, int b) {
 
 int main() {
     int a, b, c;
-
     scanf("%d %d %d", &a, &b, &c);
 
     if(c % gcd(a, b) == 0) printf("Solution possible.\n");
